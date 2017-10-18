@@ -1,0 +1,8 @@
+<form [@routerTransition]>
+  <i class="fa fa-user"></i>
+  <input type="text" class="user" placeholder="Digite seu usuário" name="user">
+  <i class="fa fa-lock"></i>
+  <input type="password" class="pass" placeholder="Digite sua senha" name="password">
+  <a [routerLink]="['/login/recuperar-senha']" class="links">Esqueci minha senha</a>
+  <a (click)="login()" class="btn btn-info btn-block button">Entrar</a>
+</form>

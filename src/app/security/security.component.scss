@@ -1,0 +1,50 @@
+body.login {
+  background: #232323;
+}
+
+body.login section {
+  padding: 90px 0 0;
+}
+
+body.login .sign-in {
+  margin: 0 auto;
+  float:none;
+}
+
+body.login .sign-in img {
+  margin: 0 0 50px;
+  display: inline-block;
+}
+
+body.login .sign-in form > input[type="text"],
+body.login .sign-in form > input[type="password"] {
+  width: 100%;
+  padding: 25px 40px 25px 75px;
+  border: 2px solid gray;
+  margin: 20px 0 10px;
+  color: #000;
+  font-size: 14px;
+  transition: all 0.5s ease;
+}
+
+body.login .sign-in form input:focus {
+  outline: none;
+  box-shadow: 0 0 15px 1px #00ffe0;
+}
+
+body.login .sign-in form > i {
+  font-size: 22px;
+  color: #ff5800;
+  position: absolute;
+  margin: 38px 30px;
+}
+
+body.login .sign-in form a.links {
+  float: none;
+  display: block;
+  text-align: left;
+  margin: 13px 0 40px;
+  font-size: 13px;
+  color: #fff;
+  text-decoration: underline;
+}
